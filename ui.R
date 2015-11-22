@@ -3,10 +3,10 @@ library(shiny)
 # Define UI for miles per gallon application
 shinyUI(fluidPage(
   # title
-  titlePanel("Miles Per Gallon"),
-  h5('Tweek the Plot by changing the drop down values'),
+  titlePanel("Miles Per Gallon Analysis"),
+  h5('Change the plot by selecting different drop down values and using the check box'),
   
-  p('The plot shows the impact of different variable on the miles per gallon. The variables analyzed are:'),
+  p('This is a dynamic visual interpretation of the relationship between different variables on the miles per gallon. The variables analyzed are:'),
   p('
     1) Cylinders
     2) Automatic vs. Manual
